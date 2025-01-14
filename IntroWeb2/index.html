@@ -1,22 +1,33 @@
-<html lang=”es”> <!--Faltaban comillas en el valor del atributo-- >
+<!DOCTYPE html> <!-- no estaba la etiqueta doctype-->
+<html lang="es"> <!--Faltaban comillas en el valor del atributo --> <!-- comentario con error todo 
+    el documento se manejaba como comentario-->
+<!-- mala indentacion-->
+
 <head>
-<meta charset=”UTF-65”>
- <meta name="viewport" content="Ejercicio HTML - Corrige los errores">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8"><!-- no tenia comillas el atributo y la codificacion de caracteres no era bien-->
+    <meta name="viewport" content="Ejercicio HTML - Corrige los errores">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>World Wide Web</title> <!-- la etiqueta estaba fuera de head-->
 </head>
-<title>World Wide Web</title>
-<body>
 
-<h1>World Wide Web</h1>
+<body> <!-- no estaba la etiqueta body-->
 
-<p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+    <h1>World Wide Web</h1>
 
-<h2>Historia<h2>
+    <p>En informática, la <strong>World Wide Web</strong> (WWW) o red informática mundial comúnmente conocida como la
+        web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y
+        accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web
+        que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas
+        páginas usando hiperenlaces.</p> <!-- no habia etiqueta de cierre de p y strong estaba mal cerrada-->
 
-<p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
-</p>
+    <h2>Historia</h2><!-- h2 mal cerrada-->
 
-<p>Fuente: <em>Wikipedia</p></em>
+    <p>
+        La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee
+        con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN</em> en Ginebra, Suiza,
+            y publicado en 1992.
+    </p><!-- no estaba cerrada em-->
 
+    <p>Fuente: <em>Wikipedia</em></p> <!-- em no estaba dentro de p-->
+</body> <!-- no estaba cerrada la etiqueta body-->
+</html> <!-- no estaba cerrada la etiqueta html-->
