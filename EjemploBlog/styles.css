@@ -75,3 +75,22 @@ button {
 button:hover {
     background-color: #BE3144;
 }
+
+
+#reseña{
+    background-color: #BE3144;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#reseña a{
+    color: white;
+}
+
+#reseña:hover {
+    background-color: #9c1b42;
+    width: 198px;
+    height: 65px;
+}
