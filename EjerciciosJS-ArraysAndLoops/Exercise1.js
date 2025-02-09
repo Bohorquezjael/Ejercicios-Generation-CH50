@@ -5,4 +5,4 @@ function joinElementsInArray(arr, joiner){
 }
 
 const arr = ["This", "is", "a", "sentence."];
-console.log(joinElementsInArray(arr, " ");
+console.log(joinElementsInArray(arr, " "));
