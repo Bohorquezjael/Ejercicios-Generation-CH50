@@ -4,5 +4,10 @@ function sumElementsInArray(arr){
     return arr.reduce((sum, element) => sum + element, 0);
 }
 
+function productFromArray(arr){
+    return arr.reduce((product, element) => product * element, 1);
+}
+
 const arr = [1, 2, 3, 4];
 console.log(sumElementsInArray(arr));
+console.log(productFromArray(arr));
