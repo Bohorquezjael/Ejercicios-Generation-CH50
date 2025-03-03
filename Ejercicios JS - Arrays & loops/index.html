@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+</head>
+
+<body>
+    <main>
+        <h1>Ejercicios con arreglos y ciclos en JS!</h1>
+        <section>
+            <h2>Ejercicio 1</h2>
+            <p>Imprime un arreglo separados con un delimitador usando Join</p>
+            <pre><code>function joinElementsInArray(arr, joiner){
+                return arr.join(joiner);
+            }
+            </code></pre>
+            <br>
+            <pre><code>["This", "is", "a", "sentence."]</code></pre>
+            <p>pruebalo e ingresa un delimitador 😊</p>
+            <form>
+                <label for="simbolos">Ingresa un delimitador:</label>
+                <input type="text" id="simbolos" name="simbolos"  title="Por favor,
+                ingresa solo símbolos o delimitadores">
+                <input type="submit">
+            </form>
+            <label for="resultado">El arreglo quedo asi despues de la operacion:</label>
+            <pre><div id="result">
+
+            </div></pre>
+        </section>
+    </main>
+    <script src="./scripts.js"></script>
+</body>
+</html>
