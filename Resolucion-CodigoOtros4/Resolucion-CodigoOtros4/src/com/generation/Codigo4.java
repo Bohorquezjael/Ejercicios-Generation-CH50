@@ -19,7 +19,11 @@ public class Codigo4 {
     System.out.println("Turno del jugador 2 (introduzca piedra, papel o tijeras): ");
     String player2 = sc.nextLine();
 
-    // elimine un parentesis de mas y cambie la forma en que se comparaban los objetos String
+    /*  elimine un parentesis de mas y cambie la forma en que se comparaban los objetos String
+        cambie los if para que en caso de no recibir un valor, no de un NullPointerException
+        ademas cambie e equals para que ignore el case
+
+    */
     if (player1.equals(player2)) {
       System.out.println("Empate");
     } else {
@@ -27,18 +31,18 @@ public class Codigo4 {
       //el switch no tenia break
       switch (player1) {
         case "piedra":
-          if ("tijeras".equals(player2)) {
+          if ("tijeras".equalsIgnoreCase(player2)) {
             winner = 1;
           }
           break;
           // no estaba cerrada una llave del condicional
         case "papel":
-          if ("piedra".equals(player2)) {
+          if ("piedra".equalsIgnoreCase(player2)) {
             winner = 1;
           }
           break;
         case "tijera":
-          if ("papel".equals(player2)) {
+          if ("papel".equalsIgnoreCase(player2)) {
             winner = 1;
           }
           break;
